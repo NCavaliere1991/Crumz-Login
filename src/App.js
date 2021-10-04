@@ -1,8 +1,4 @@
-import logo from './logo.svg';
-import Logo from './Logo';
 import Login from './Login';
-import Heading from './Heading';
-import Buttons from './Buttons';
 
 function App() {
   return (
