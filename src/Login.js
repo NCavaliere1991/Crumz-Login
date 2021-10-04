@@ -34,35 +34,6 @@ export default function Login() {
                 <p class="mb-7 text-center">Are you a business owner?<a class="text-blue-700" href="#"> Click Here</a></p>
                 <button class="block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full my-4">Login</button>
             </form>
-            {/* <Form onSubmit={handleSubmit} class="w-full flex justify-center flex-col">
-                <Form.Group size="lg" controlId="email">
-                    <Form.Label class="block text-left">Email or Phone Number</Form.Label>
-                    <Form.Control
-                        autofocus
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        class="w-1000px"
-                    />
-                </Form.Group>
-                <Form.Group size="lg" controlId="password">
-                    <Form.Label class="block text-left">Password</Form.Label>
-                    <Form.Control
-                        type="password"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                    />
-                </Form.Group>
-                <Form.Group controlId="remember">
-                    <Form.Label>Remember Me</Form.Label>
-                    <Form.Control
-                        type="radio"
-                    />
-                </Form.Group>
-                <Button class="bg-green" block size="lg" type="submit" disabled={!validateForm}>
-                    Login
-                </Button>
-            </Form> */}
         </div>
     )
 }
